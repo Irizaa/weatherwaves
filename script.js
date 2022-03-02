@@ -55,7 +55,7 @@ function getLocation (userLocation) {
               );
             }
             if (part.types.includes("administrative_area_level_1")) {
-                state = part.long_name
+                state = part.long_nam
                 document.body.insertAdjacentHTML(
                 "beforeend",
                 `<p>STATE: ${state}</p>`
