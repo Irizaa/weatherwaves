@@ -7,7 +7,7 @@ function successLocation() {
 function errorLocation() {
     setupMap()
 }
-
+// Create map & set up functionality
 function setupMap() {
     const map = new mapboxgl.Map({
         center: [-30.96, 4],
@@ -26,8 +26,8 @@ function setupMap() {
             });
     })   
 }
+// Get user location
 function getLocation (userLocation) {
-    
     let country = undefined
     let state = undefined
     let city = undefined
@@ -55,7 +55,7 @@ function getLocation (userLocation) {
               );
             }
             if (part.types.includes("administrative_area_level_1")) {
-                state = part.long_nam
+                state = part.long_name
                 document.body.insertAdjacentHTML(
                 "beforeend",
                 `<p>STATE: ${state}</p>`
