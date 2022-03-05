@@ -1,11 +1,13 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiY29kZXI1MDAzIiwiYSI6ImNsMDY3aDFqNDFiYjYzZG1tZjc1N2ZuamIifQ.R7kxAPTOieBcP9J-YubLPQ'
-
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {enableHighAccuracy: true})
 function successLocation() {
     setupMap()
 }
 function errorLocation() {
     setupMap()
+}
+function testing(x) {
+  console.log(x)
 }
 // Create map & set up functionality
 function setupMap() {
