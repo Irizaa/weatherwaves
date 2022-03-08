@@ -1,6 +1,6 @@
-const redirect_uri = "http://127.0.0.1:5501/index.html"
-const client_id = "615be8ca71b842359f17802bf18e8b22"
-const client_secret = "669e1a82648244f594f1969ef0b7df22"
+const redirect_uri = ""
+const client_id = ""
+const client_secret = ""
 const authorize = "https://accounts.spotify.com/authorize?"
 
 
