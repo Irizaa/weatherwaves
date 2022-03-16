@@ -33,7 +33,7 @@ function getLocation (userLocation) {
     let country = undefined
     let state = undefined
     let city = undefined
-    const KEY = "AIzaSyDq-Io7Qx2IaBLTceUWhSL70HD0PCuyNaU"
+    const KEY = ""
     const LAT = userLocation[0]
     const LNG = userLocation[1]
     let url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${LAT},${LNG}&key=${KEY}`;
